@@ -1,0 +1,2 @@
+Mini Project Archive
+VESNA_analysis_manual.py is a python script that helps to summarise the output of running VESNA. Simply feed the FULL output folder path at the start of the script then run it. It will extract values from the various .csv files in the output folders amd calculate useful values for 3D vascular network analysis. The script accounts for batch processing by finding how many sample were processed by VESNA in the file_names.csv found in the VESNA output folder
