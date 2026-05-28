@@ -7,3 +7,10 @@ Installation:
 5. Follow the prompts to select the input and output folders
 
 This macro is meant to be used BEFORE VESNA processing
+
+
+
+
+
+The VESNA_summarise_plots.py file is a python script to be used AFTER VESNA processing
+VESNA will produce multiple .csv files in the specified output folder after it operates. This script will take in this output folder path (full path) and create a summary to automatically calculate Length Density, Branchpoint Density, Endpoint-to-Branchpoint Ratio and Median Tortuosity.
