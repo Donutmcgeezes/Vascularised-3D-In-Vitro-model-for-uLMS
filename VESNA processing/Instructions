@@ -1,0 +1,9 @@
+NOTES: The .ijm file here is a macro to batch process multiple z-stacks to subtract background from before VESNA analysis. It will take in an input folder where the raw z-stacks are and an output folder where the background subtracted z-stacks will be placed and renamed with suffix '-SB'. A log window will update you on progress in Fiji
+Installation:
+1. go to the macro folder in your Fiji folder
+2. Drop SubtractBG_batch.ijm into the macro folder
+3. Open Fiji, then Plugins>Macro>Install and select the .ijm file
+4. Open Plugins>Macro and SubtractBG_batch should appear to click on
+5. Follow the prompts to select the input and output folders
+
+This macro is meant to be used BEFORE VESNA processing
